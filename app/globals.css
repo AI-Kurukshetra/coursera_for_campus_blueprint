@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0A0F1E;
+  --foreground: #F8FAFC;
+  --font-dm-sans: "DM Sans";
+  --font-playfair: "Playfair Display";
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+@layer base {
+  * {
+    @apply border-brand-border;
+  }
+
+  body {
+    @apply bg-brand-bg text-brand-text;
+  }
+}

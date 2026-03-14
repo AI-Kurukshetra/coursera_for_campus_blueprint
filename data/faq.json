@@ -1,0 +1,52 @@
+[
+  {
+    "id": "faq-1",
+    "question": "How do I enroll in a course?",
+    "answer": "Open the course detail page and click Enroll. Free courses enroll instantly, while paid courses require Stripe payment confirmation."
+  },
+  {
+    "id": "faq-2",
+    "question": "Why can\u2019t I access a lesson after enrollment?",
+    "answer": "The lesson may not be published yet or your enrollment may be inactive. Check your dashboard status and contact support if the issue continues."
+  },
+  {
+    "id": "faq-3",
+    "question": "How is lesson progress calculated?",
+    "answer": "Progress updates every 10 seconds while watching and a lesson is marked complete when watched time reaches at least 90% of duration."
+  },
+  {
+    "id": "faq-4",
+    "question": "Can I retake a quiz?",
+    "answer": "Yes, if the quiz still has remaining attempts based on the course settings configured by the instructor."
+  },
+  {
+    "id": "faq-5",
+    "question": "How are final grades computed?",
+    "answer": "Final course grade is the average of quiz scores for that course and is shown on your progress page."
+  },
+  {
+    "id": "faq-6",
+    "question": "When is a certificate generated?",
+    "answer": "A certificate is generated after you complete all course lessons and pass all required quizzes at or above the passing score."
+  },
+  {
+    "id": "faq-7",
+    "question": "How can I verify a certificate?",
+    "answer": "Use the public verification page by opening /verify/[code] with the certificate verification code."
+  },
+  {
+    "id": "faq-8",
+    "question": "Who can mark a discussion reply as answer?",
+    "answer": "Only the instructor who owns that course can mark one reply in a thread as the instructor answer."
+  },
+  {
+    "id": "faq-9",
+    "question": "How do support ticket statuses work?",
+    "answer": "Open means newly submitted, in_progress means admin is reviewing, resolved means completed, and closed means finalized."
+  },
+  {
+    "id": "faq-10",
+    "question": "Where do I see notifications?",
+    "answer": "Use the bell icon in the top navigation to open the notification drawer and mark messages as read."
+  }
+]
