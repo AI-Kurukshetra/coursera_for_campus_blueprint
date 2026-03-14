@@ -39,6 +39,25 @@ const config: Config = {
       transitionDuration: {
         DEFAULT: "200ms",
       },
+      keyframes: {
+        float: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
+        mesh: {
+          "0%, 100%": { transform: "translate3d(0, 0, 0) scale(1)" },
+          "50%": { transform: "translate3d(0, -14px, 0) scale(1.03)" },
+        },
+        marquee: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+      },
+      animation: {
+        float: "float 6s ease-in-out infinite",
+        mesh: "mesh 10s ease-in-out infinite",
+        marquee: "marquee 24s linear infinite",
+      },
     },
   },
   plugins: [],
